@@ -6,6 +6,7 @@ declare class Filter {
      * @param {object} options - Filter instance options
      * @param {boolean} options.emptyList - Instantiate filter with no blacklist
      * @param {array} options.list - Instantiate filter with custom list
+     * @param {array} options.exclude - Add words to whitelist filter
      * @param {string} options.placeHolder - Character used to replace profane words.
      * @param {RegExp} options.regex - Regular expression used to sanitize words before comparing them to blacklist.
      * @param {RegExp} options.replaceRegex - Regular expression used to replace profane words with placeHolder.

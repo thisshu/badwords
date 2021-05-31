@@ -1,6 +1,6 @@
 {
   "name": "@thisshu/bad-words",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "description": "A javascript filter for bad words",
   "main": "./lib/badwords",
   "directories": {
